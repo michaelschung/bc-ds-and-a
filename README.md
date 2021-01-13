@@ -18,3 +18,8 @@ things-do-to:
 links:
 - [keith schwarz's 106b archive](https://www.keithschwarz.com/cs106b/)
 - [graphics.py reference](https://mcsp.wartburg.edu/zelle/python/graphics/graphics/graphref.html)
+
+kids need to install:
+- Atom
+- Python3
+- `pip3 install graphics.py`
