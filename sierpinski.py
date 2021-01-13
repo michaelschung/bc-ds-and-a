@@ -1,10 +1,10 @@
 from graphics import *
 import math
 
-# 500x500 window
-win = GraphWin(width=500, height=500) # create a window
-# Set scale of the window
-win.setCoords(0, 0, 500, 500) # set the coordinates of the window; bottom left is (0, 0) and top right is (10, 10)
+# Create a 500x500 window
+win = GraphWin(width=500, height=500)
+# Set coordinates of the window; bottom left is (0, 0) and top right is (500, 500)
+win.setCoords(0, 0, 500, 500)
 
 # Self-explanatory
 def drawTriangle(x, y, size):
@@ -35,4 +35,5 @@ def sierpinski(x, y, size, order):
 
 sierpinski(250, 450, 400, 6)
 
-win.getMouse() # pause before closing
+# Wait for mouse click to close
+win.getMouse()
