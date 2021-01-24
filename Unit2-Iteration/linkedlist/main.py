@@ -6,7 +6,7 @@ def main():
     ll.insert(8, 1)
     ll.insert(56, 1)
     ll.print()
-    print(ll.index(5))
+    print(ll.index(10))
 
 if __name__ == '__main__':
     main()
