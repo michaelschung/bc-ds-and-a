@@ -3,7 +3,7 @@ import math
 
 # Create a 500x500 window
 win = GraphWin(width=500, height=500)
-# Set coordinates of the window; bottom left is (0, 0) and top right is (500, 500)
+# Set coordinates of window; bottom left is (0, 0) and top right is (500, 500)
 win.setCoords(0, 0, 500, 500)
 
 # Self-explanatory
@@ -33,7 +33,53 @@ def sierpinski(x, y, size, order):
         sierpinski(x-xOff, y-yOff, size/2, order-1)
         sierpinski(x+xOff, y-yOff, size/2, order-1)
 
+
 sierpinski(250, 450, 400, 6)
 
 # Wait for mouse click to close
 win.getMouse()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# just for spacing
