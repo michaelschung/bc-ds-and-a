@@ -22,6 +22,7 @@ print(3**2)
 print(3 + 5)
 
 # Comparison operators
+print('===Comparison operators===')
 print(x == y)
 print(x > y)
 print(x != y)
@@ -34,10 +35,12 @@ print(lst1 == lst2)
 print(lst1 is lst2)
 
 # Logical operators
+print('===Logical operators===')
 print((2 > 3) or (5 < 6))
 print((2 > 3) and (5 < 6))
 
 # Built-in functions
+print('===Built-in functions===')
 lst = [1, 2, 3, 4, 5, 6, 7, 8]
 print(max(lst))
 print(len('hello'))
@@ -45,6 +48,7 @@ print(len(lst))
 print(type(x))
 
 # Casting
+print('===Casting===')
 x_str = str(x)
 print(x_str)
 print(type(x_str))
