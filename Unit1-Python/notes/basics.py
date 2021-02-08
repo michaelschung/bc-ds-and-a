@@ -19,7 +19,7 @@ z = 5
 # Mathematical operators
 print('===Mathematical operators===')
 print(3**2)
-print(3 + 5)
+print(3 * 5)
 
 # Comparison operators
 print('===Comparison operators===')
