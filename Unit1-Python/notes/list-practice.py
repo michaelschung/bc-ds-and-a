@@ -1,4 +1,4 @@
-# Michel Chung
+# Michael Chung
 # 2/8: List Practice Problems
 
 # 1) Find sum of all numbers in a list
