@@ -32,25 +32,25 @@ print(sum_list([1, 2, 3, 4]))
 print(sum_list([1, 2, 3, 4, 5, 6, 7]))
 
 # Write a function that takes two numbers as parameters, and returns the value of the first number raised to the power of the second
-def square_nums(x, y):
+def x_to_y(x, y):
     total = 1
     for i in range(y):
         total *= x
     return total
 
-print(square_nums(2, 3))
+print(x_to_y(2, 3))
 
 #############
 
 # Subset
 def is_subset(list1, list2):
-    overlap = True
+    # overlap = True
     for val in list1:
         if val not in list2:
-            overlap = False
-    return overlap
+            return False
+    return True
 
-list1 = [4, 6, 2]
+list1 = [4, 6, 20]
 list2 = [3, 6, 2, 8, 5, 4, 1, 0]
 
 print(is_subset(list1, list2))

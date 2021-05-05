@@ -1,14 +1,23 @@
+'''
+Mr. Chung
+3/10: Testing out the LinkedList class
+'''
+
 from linkedlist import LinkedList
 
-def main():
-    ll = LinkedList()
-    ll.insert(5, 0)
-    ll.insert(8, 1)
-    ll.insert(56, 1)
-    ll.delete(9)
-    ll.append(1)
-    ll.print()
-    print(ll.index(10))
+ll = LinkedList()
 
-if __name__ == '__main__':
-    main()
+ll.append('ram')
+ll.append('ranch')
+ll.append('fire')
+ll.append('computer')
+ll.append('Mr. Chung')
+
+print(ll.pop())
+print(ll.pop())
+print(ll.pop())
+print(ll.pop())
+print(ll.pop())
+print(ll.pop())
+
+ll.print()
